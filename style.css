@@ -6,6 +6,7 @@ html, body {
     margin: 0; /* Supprime les marges par défaut */
     padding: 0; /* Supprime les espaces internes */
     height: 100%; /* Définit la hauteur de la page sur 100% de l'écran */
+    width: 100vw;
   }
   /* Conteneur principal de la page */
   .container {
@@ -92,3 +93,4 @@ html, body {
     color: #555; /* Couleur du texte en gris moyen */
   }
   
+

@@ -1,98 +1,101 @@
-<!DOCTYPE html>
 <!-- Indique au navigateur que ce fichier utilise le standard HTML5 -->
-<html lang="fr">
+<!DOCTYPE html>
+
 <!-- Définit la langue principale de la page comme le français -->
+<html lang="fr">
+
+<!-- Contient les métadonnées et les ressources liées à la page -->
 <head>
-  <!-- Contient des informations sur le document, comme le titre et les liens vers les ressources -->
+  <!-- Spécifie l'encodage des caractères pour permettre l'utilisation des caractères spéciaux -->
   <meta charset="UTF-8">
-  <!-- Spécifie l'encodage des caractères pour inclure des caractères spéciaux comme les accents -->
+  <!-- Rend la page adaptative, c'est-à-dire compatible avec les écrans de différentes tailles -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Configure la page pour qu'elle soit responsive (s'adapte à la taille de l'écran) -->
+  <!-- Définit le titre de la page affiché dans l'onglet du navigateur -->
   <title>La Meilleure Nounou de l'Année</title>
-  <!-- Définit le titre de la page visible dans l'onglet du navigateur -->
+  <!-- Lien vers un fichier CSS externe contenant les styles associés à cette page -->
   <link rel="stylesheet" href="style.css">
-  <!-- Lien vers un fichier CSS externe contenant les styles pour cette page -->
 </head>
+
+<!-- Début du corps principal de la page -->
 <body>
-  <!-- Conteneur principal pour toute la structure de la page -->
+
+  <!-- Division principale qui regroupe tout le contenu de la page -->
   <div class="container">
+
     <!-- Section en-tête de la page -->
     <header class="header">
+      <!-- Titre principal affiché en grand dans l'en-tête -->
       <h1>Concours De La Meilleure Nounou de l'Année 2024</h1>
-      <!-- Titre principal de la page affiché en grand dans l'en-tête -->
     </header>
 
-    <!-- Section principale de la page -->
+    <!-- Section principale contenant le contenu central de la page -->
     <main class="main-content">
-      <!-- Division pour l'annonce de la gagnante -->
+
+      <!-- Division contenant l'annonce de la gagnante -->
       <div class="announcement">
+        <!-- Texte de félicitations affiché en haut de la section principale -->
         <p>Félicitations à notre gagnante !</p>
-        <!-- Texte de félicitations -->
+        <!-- Nom de la gagnante affiché avec un style plus grand et en gras -->
         <h2>Nom de la Gagnante : Sarah Dupont</h2>
-        <!-- Indique le nom de la gagnante -->
       </div>
 
-      <!-- Division pour la présentation de la gagnante -->
+      <!-- Division dédiée à la présentation de la gagnante -->
       <div class="winner-section">
+        <!-- Image de la gagnante accompagnée d'un texte alternatif pour l'accessibilité -->
         <img src="./Gagnante_2024.png" alt="Photo de la gagnante">
-        <!-- Image de la gagnante avec une description alternative -->
       </div>
 
-      <!-- Division pour la section des finalistes -->
+      <!-- Division contenant la liste des finalistes -->
       <div class="finalists-section">
-        <h3>Finalistes</h3>
         <!-- Sous-titre pour introduire le tableau des finalistes -->
+        <h3>Finalistes</h3>
 
-        <!-- Tableau affichant les informations sur les finalistes -->
+        <!-- Tableau pour afficher les informations sur les finalistes -->
         <table class="finalists-table">
+          <!-- Section d'en-tête du tableau qui contient les titres des colonnes -->
           <thead>
-            <!-- En-tête du tableau -->
+            <!-- Ligne de l'en-tête -->
             <tr>
+              <!-- Colonne indiquant la position du finaliste -->
               <th>Position</th>
-              <!-- Colonne pour afficher les positions -->
+              <!-- Colonne affichant le nom des finalistes -->
               <th>Nom</th>
-              <!-- Colonne pour afficher les noms -->
+              <!-- Colonne affichant le score des finalistes -->
               <th>Vote</th>
-              <!-- Colonne pour afficher les scores -->
             </tr>
           </thead>
+          <!-- Section contenant les données du tableau -->
           <tbody>
-            <!-- Corps du tableau avec les données -->
             <tr>
               <td>1</td>
-              <!-- Indique la position 1 -->
               <td>Sarah Dupont</td>
-              <!-- Nom de la gagnante -->
               <td>95</td>
-              <!-- Score obtenu par la gagnante -->
             </tr>
+            <!-- Deuxième ligne du tableau -->
             <tr>
               <td>2</td>
-              <!-- Indique la position 2 -->
               <td>Claire Martin</td>
-              <!-- Nom de la deuxième finaliste -->
               <td>89</td>
-              <!-- Score obtenu par la deuxième finaliste -->
             </tr>
+            <!-- Troisième ligne du tableau -->
             <tr>
               <td>3</td>
-              <!-- Indique la position 3 -->
               <td>Emma Bernard</td>
-              <!-- Nom de la troisième finaliste -->
               <td>85</td>
-              <!-- Score obtenu par la troisième finaliste -->
             </tr>
           </tbody>
         </table>
-        <button>Révelez le nombre de vote</button>
+        <!-- Bouton pour révéler des informations supplémentaires -->
+        <button>Révelez le nombre de votes</button>
       </div>
     </main>
 
     <!-- Section pied de page -->
     <footer class="footer">
-      <p>Organisé par Association Descodeuses</p>
       <!-- Indique l'organisateur du concours -->
+      <p>Organisé par Association Descodeuses</p>
     </footer>
   </div>
 </body>
+
 </html>

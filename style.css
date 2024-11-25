@@ -36,10 +36,11 @@ html, body {
   
   /* Division pour l'annonce */
   .announcement {
-    margin-bottom: 20px; /* Ajoute une marge en bas */
+    margin: 20px auto; /* Ajoute une marge en bas */
     background-color: #ffe4e1; /* Couleur de fond rose pâle */
     padding: 15px; /* Ajoute des espaces internes */
     border-radius: 8px; /* Arrondit les coins du conteneur */
+    width: 40%;
   }
   
   .announcement p {

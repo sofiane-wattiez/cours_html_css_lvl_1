@@ -81,7 +81,7 @@ html, body {
     background-color: #fff; /* Couleur de fond blanche pour les cellules */
   }
   .hidden {
-    display: none;
+    display: none; /* Permet de faire disparaitre un élement. */
   }
   /* Pied de page */
   .footer {

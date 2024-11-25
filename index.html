@@ -60,24 +60,29 @@
             <tr>
               <td>1</td>
               <td>Sarah Dupont</td>
-              <td>95</td>
+              <td class="hidden">95</td>
             </tr>
             <!-- Deuxième ligne du tableau -->
             <tr>
               <td>2</td>
               <td>Claire Martin</td>
-              <td>89</td>
+              <td class="hidden">89</td>
             </tr>
             <!-- Troisième ligne du tableau -->
             <tr>
               <td>3</td>
               <td>Emma Bernard</td>
-              <td>85</td>
+              <td class="hidden">85</td>
             </tr>
           </tbody>
         </table>
-        <!-- Bouton pour révéler des informations supplémentaires -->
-        <button>Révelez le nombre de votes</button>
+        <!-- Bouton pour afficher les valeurs -->
+        <button onclick="revealScores()">Afficher les scores</button>
+
+        <!-- Section où les valeurs des TD seront affichées -->
+        <div id="score-display" style="margin-top: 20px; font-size: 1.2em; font-weight: bold; color: #333;">
+        </div>
+
       </div>
     </main>
     <!-- Section pied de page -->
@@ -86,5 +91,6 @@
       <p>Organisé par Association Descodeuses</p>
     </footer>
   </div>
+<script src="script.js"></script>
 </body>
 </html>

@@ -80,6 +80,9 @@ html, body {
   .finalists-table td {
     background-color: #fff; /* Couleur de fond blanche pour les cellules */
   }
+  .hidden {
+    display: none;
+  }
   /* Pied de page */
   .footer {
     background-color: #f5f5f5; /* Couleur de fond gris clair */

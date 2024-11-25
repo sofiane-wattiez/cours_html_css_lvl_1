@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Indique au navigateur que ce fichier utilise le standard HTML5 -->
+<html lang="fr">
+<!-- Définit la langue principale de la page comme le français -->
+<head>
+  <!-- Contient des informations sur le document, comme le titre et les liens vers les ressources -->
+  <meta charset="UTF-8">
+  <!-- Spécifie l'encodage des caractères pour inclure des caractères spéciaux comme les accents -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configure la page pour qu'elle soit responsive (s'adapte à la taille de l'écran) -->
+  <title>La Meilleure Nounou de l'Année</title>
+  <!-- Définit le titre de la page visible dans l'onglet du navigateur -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Lien vers un fichier CSS externe contenant les styles pour cette page -->
+</head>
+<body>
+  <!-- Conteneur principal pour toute la structure de la page -->
+  <div class="container">
+    <!-- Section en-tête de la page -->
+    <header class="header">
+      <h1>Concours De La Meilleure Nounou de l'Année 2024</h1>
+      <!-- Titre principal de la page affiché en grand dans l'en-tête -->
+    </header>
+
+    <!-- Section principale de la page -->
+    <main class="main-content">
+      <!-- Division pour l'annonce de la gagnante -->
+      <div class="announcement">
+        <p>Félicitations à notre gagnante !</p>
+        <!-- Texte de félicitations -->
+        <h2>Nom de la Gagnante : Sarah Dupont</h2>
+        <!-- Indique le nom de la gagnante -->
+      </div>
+
+      <!-- Division pour la présentation de la gagnante -->
+      <div class="winner-section">
+        <img src="./Gagnante_2024.png" alt="Photo de la gagnante">
+        <!-- Image de la gagnante avec une description alternative -->
+      </div>
+
+      <!-- Division pour la section des finalistes -->
+      <div class="finalists-section">
+        <h3>Finalistes</h3>
+        <!-- Sous-titre pour introduire le tableau des finalistes -->
+
+        <!-- Tableau affichant les informations sur les finalistes -->
+        <table class="finalists-table">
+          <thead>
+            <!-- En-tête du tableau -->
+            <tr>
+              <th>Position</th>
+              <!-- Colonne pour afficher les positions -->
+              <th>Nom</th>
+              <!-- Colonne pour afficher les noms -->
+              <th>Vote</th>
+              <!-- Colonne pour afficher les scores -->
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Corps du tableau avec les données -->
+            <tr>
+              <td>1</td>
+              <!-- Indique la position 1 -->
+              <td>Sarah Dupont</td>
+              <!-- Nom de la gagnante -->
+              <td>95</td>
+              <!-- Score obtenu par la gagnante -->
+            </tr>
+            <tr>
+              <td>2</td>
+              <!-- Indique la position 2 -->
+              <td>Claire Martin</td>
+              <!-- Nom de la deuxième finaliste -->
+              <td>89</td>
+              <!-- Score obtenu par la deuxième finaliste -->
+            </tr>
+            <tr>
+              <td>3</td>
+              <!-- Indique la position 3 -->
+              <td>Emma Bernard</td>
+              <!-- Nom de la troisième finaliste -->
+              <td>85</td>
+              <!-- Score obtenu par la troisième finaliste -->
+            </tr>
+          </tbody>
+        </table>
+        <button>Révelez le nombre de vote</button>
+      </div>
+    </main>
+
+    <!-- Section pied de page -->
+    <footer class="footer">
+      <p>Organisé par Association Descodeuses</p>
+      <!-- Indique l'organisateur du concours -->
+    </footer>
+  </div>
+</body>
+</html>

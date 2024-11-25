@@ -1,0 +1,106 @@
+/* Applique des styles généraux à tout le document */
+html, body {
+    font-family: 'Arial', sans-serif; /* Police d'écriture par défaut */
+    background-color: #f0f8ff; /* Couleur de fond*/
+    color: #333; /* Couleur du texte*/
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espaces internes */
+    height: 100%; /* Définit la hauteur de la page sur 100% de l'écran */
+  }
+  
+  /* Conteneur principal de la page */
+  .container {
+    display: flex; /* Active un modèle de boîte flexible */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    min-height: 100vh; /* Assure que le conteneur occupe toute la hauteur de l'écran */
+  }
+  
+  /* Section en-tête */
+  .header {
+    background-color: #ff1493; /* Couleur de fond rose vif */
+    padding: 20px; /* Ajoute des espaces internes autour du contenu */
+    text-align: center; /* Centre le texte horizontalement */
+  }
+  
+  .header h1 {
+    color: #fff; /* Couleur du texte en blanc */
+    margin: 0; /* Supprime les marges externes autour du titre */
+  }
+  
+  /* Contenu principal */
+  .main-content {
+    flex: 1; /* Permet à cette section de s'étendre pour occuper l'espace disponible */
+    padding: 20px; /* Ajoute des espaces internes */
+    text-align: center; /* Centre le texte */
+  }
+  
+  /* Division pour l'annonce */
+  .announcement {
+    margin-bottom: 20px; /* Ajoute une marge en bas */
+    background-color: #ffe4e1; /* Couleur de fond rose pâle */
+    padding: 15px; /* Ajoute des espaces internes */
+    border-radius: 8px; /* Arrondit les coins du conteneur */
+  }
+  
+  .announcement p {
+    font-size: 1.2em; /* Taille légèrement plus grande pour le texte */
+    margin: 0; /* Supprime les marges par défaut */
+  }
+  
+  .announcement h2 {
+    margin: 10px 0 0 0; /* Ajoute une marge uniquement en haut */
+    color: #ff1493; /* Couleur rose vif pour le texte */
+  }
+  
+  /* Division pour la gagnante */
+  .winner-section {
+    margin: 20px 0; /* Ajoute des marges en haut et en bas */
+  }
+  
+  .winner-section img {
+    max-width: 200px; /* Limite la largeur maximale de l'image */
+    border-radius: 10px; /* Arrondit les coins de l'image */
+    border: 2px solid #ff1493; /* Ajoute une bordure rose autour de l'image */
+  }
+  
+  /* Section des finalistes */
+  .finalists-section {
+    margin-top: 20px; /* Ajoute une marge en haut */
+  }
+  
+  .finalists-section h3 {
+    font-size: 1.5em; /* Taille du texte du sous-titre */
+    color: #555; /* Couleur gris moyen */
+  }
+  
+  /* Tableau des finalistes */
+  .finalists-table {
+    margin: 20px auto; /* Centre le tableau et ajoute des marges en haut et en bas */
+    border-collapse: collapse; /* Supprime les espaces entre les bordures */
+    width: 80vw; /* Définit la largeur du tableau sur 80% de la page */
+  }
+  
+  .finalists-table th, .finalists-table td {
+    border: 1px solid #ccc; /* Ajoute une bordure grise claire */
+    padding: 10px; /* Ajoute des espaces internes */
+    text-align: center; /* Centre le contenu des cellules */
+  }
+  
+  .finalists-table th {
+    background-color: #ffebcd; /* Couleur de fond beige clair pour les en-têtes */
+    color: #333; /* Couleur du texte en gris foncé */
+  }
+  
+  .finalists-table td {
+    background-color: #fff; /* Couleur de fond blanche pour les cellules */
+  }
+  
+  /* Pied de page */
+  .footer {
+    background-color: #f5f5f5; /* Couleur de fond gris clair */
+    padding: 10px; /* Ajoute des espaces internes */
+    text-align: center; /* Centre le texte */
+    font-size: 0.8em; /* Réduit la taille du texte */
+    color: #555; /* Couleur du texte en gris moyen */
+  }
+  

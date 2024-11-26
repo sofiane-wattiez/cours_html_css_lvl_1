@@ -69,6 +69,7 @@ html, body {
     border-collapse: collapse; /* Supprime les espaces entre les bordures */
     width: 80vw; /* Définit la largeur du tableau sur 80% de la page */
   }
+
   .finalists-table th, .finalists-table td {
     border: 1px solid #ccc; /* Ajoute une bordure grise claire */
     padding: 10px; /* Ajoute des espaces internes */
